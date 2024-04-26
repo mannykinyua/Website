@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #4D7FA6;
+}
+
+#main-container {
+    background-color: #4D7FA6;
+    width: 1280px;
+    height: 5212px;
+    border: solid 5px black;
+    justify-content: center;
+}
+ul {
+    
+}
