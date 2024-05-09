@@ -2,16 +2,73 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
-    background-color: #4D7FA6;
+    background-color: white;
 }
-
+/* this is a css body tag */
 #main-container {
     background-color: #4D7FA6;
-    width: 1280px;
-    height: 5212px;
+    width: 1024px;
+    height: 5301px;
     border: solid 5px black;
     justify-content: center;
 }
+#header {
+    display: flex;
+    border: solid 5px orange;
+
+}
+
+#nav {
+    width: 715px;
+    border: solid 2px red;
+}
 ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 41.28px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 50px;
+    padding: 5px;
+    border: solid 5px black;
+}
+
+li {
+    border: solid 5px black;
+    list-style-type: none;
+    width: 150px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    float: center;
     
+}
+
+h2 { 
+    display: flex;
+    justify-content: center;
+    float: center;
+    border: 50px;
+    
+    
+}
+img {
+    display: flex;
+    float: right 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#picture-of-me {
+    position: absolute;
+    
+}
+#intro-text {
+    display: flex;
+    align-items: end;
+    border: solid 1px;
+    width: 300px;
+    float: right;
 }
