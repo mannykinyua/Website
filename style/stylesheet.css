@@ -9,7 +9,7 @@ body {
     background-color: #4D7FA6;
     width: 1024px;
     height: 5301px;
-    border: solid 5px black;
+    border: solid 5px white;
     justify-content: center;
 }
 #header {
@@ -27,7 +27,6 @@ ul {
     justify-content: space-around;
     font-size: 41.28px;
     position: relative;
-    margin-bottom: 0px;
     margin-top: 0px;
     margin-right: 50px;
     padding: 5px;
@@ -43,7 +42,6 @@ li {
 h1 {
     display: flex;
     justify-content: center;
-    float: center;
     
 }
 
@@ -52,23 +50,13 @@ h2 {
     justify-content: center;
     float: center;
     border: 50px;
-    
-    
-}
-img {
-    display: flex;
-    float: right 50px;
-    margin-left: 20px;
-    margin-top: 20px;
 }
 #picture-of-me {
-    position: absolute;
-    
+    display: flex;
+    margin: 100px;
 }
 #intro-text {
     display: flex;
-    align-items: end;
-    border: solid 1px;
-    width: 300px;
-    float: right;
+    border: solid 3px;
+    right: 50px;
 }
