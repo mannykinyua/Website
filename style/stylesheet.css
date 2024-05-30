@@ -8,20 +8,18 @@ body {
 #main-container {
     background-color: #4D7FA6;
     width: 1024px;
-    height: 5301px;
+    height: 5400px;
     border: solid 5px white;
     justify-content: center;
 }
 /* this is the main container tag */
 #header {
     display: flex;
-    border: solid 5px orange;
-
 }
 
 #nav {
     width: 715px;
-    border: solid 2px coral;
+    
 }
 ul {
     display: flex;
@@ -31,13 +29,12 @@ ul {
     margin-top: 0px;
     margin-right: 50px;
     padding: 5px;
-    border: solid 5px black;
 }
 
 li {
-    border: solid 5px black;
     list-style-type: none;
-    width: 150px;
+    width: 190px;
+    margin-left: 89px;
 }
 
 h1 {
@@ -63,14 +60,13 @@ h2 {
 #equipment-text {
     margin-right: -100px;
     margin-top: 340px;
-    text-align: 70px;
+    margin-left: -22px;
+    justify-content: center;
 }
 #first-ever-arrow-image {
-    display: flex;
-    justify-content: center;
-    margin-right: -40px;
+    margin-right: -100px;
     margin-top: 390px;
-    margin-left: -20px;
+    margin-left: -13px;
 }
 #equipment-guide {
     top: auto;
@@ -81,14 +77,11 @@ h2 {
 }
 #intro-text {
     display: flex;
-    border: solid 3px;
-    margin-left: 1px;
-    margin-right: 30px;
-    
-    height: 279px;
-    width: 552px;
+    margin-left: -20px;
+    margin-right: 10px;
+    height: 310px;
+    width: 569px;
     font-size: 21px;
-    border: solid 4px;
 }
 
 
@@ -106,44 +99,48 @@ h2 {
     
 
 }
-
-
 #arrow-image {
-    position: absolute;
-    top: 596px;
-    left: 650px;
-    margin-top: 193px;
-    margin-left: 310px;
+    display: flex;
+    margin-top: 9px;
+    margin-left: 520px;
 }
 #description-text-for-equipment {
     display: flex;
     position: relative;
     font-size: 19px;
     justify-content: center;
-    margin-top: 5px;
-    top: -1px;
+    margin-top: 25px;
     width: 542px;
     height: 38px;
-    border: solid 4px;
     left: 200px;
+    margin-left: 52px;
 }
 
 #home-text {
-    position: absolute;
     right: 400px;
     top: 857px;
-    margin-right: 140px;
-    margin-top: -90px;
+    margin-left: 700px;
+    margin-top: -150px;
     font-size: 25.24px;
     color: #9D0000;
-    border:solid 4px black;
     width: 220px;
     height: 39px;
     display: flex;
     justify-content: center;
+    transition-property: transform;
+    transition-duration: 0.9s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    
 }
 
+#home-text:hover {
+    transform: translate(56px);
+}
 
+#pictures-for-equipment {
+    margin-top: 100px;
+}
 #guitar-picture {
     display: flex;
     margin-left: 100px;
@@ -163,6 +160,7 @@ h2 {
     position: relative;
     transform: translate(560px, -597px) ;
     
+    
 }
 #description-amp {
     position: absolute;
@@ -171,7 +169,6 @@ h2 {
     font-size: 13.07px;
 }
 #chords-image {
-    position: relative;
     transform: translate(580px,-600px );
 }
 #description-chords {
@@ -181,7 +178,6 @@ h2 {
     font-size: 13.07px;
 }
 #tuner-image {
-    position: relative;
     transform: translate(130px,-299px );
 }
 #description-tuner {
@@ -191,7 +187,6 @@ h2 {
     font-size: 15.63px;
 }
 #guitar-picks-image {
-    position: relative;
     transform: translate(200px, -300px);
 }
 #description-guitar-picks {
@@ -208,14 +203,13 @@ h2 {
 }
 #arrow-image-2 {
     position: absolute;
-    transform: translate(-260px, 30px);
+    transform: translate(518px, -220px);
 }
 #beginning-of-step-1 {
     display: flex;
     justify-content: center;
-    margin-left: 440px;
+    margin-left: 450px;
     color: #F2E9B8;
-    border: black solid 5px;
     width: 173px;
     height: 59px;
     margin-top: -180px;
@@ -229,18 +223,17 @@ h2 {
     color: #9D0000;
     font-size: 25.24px;
     text-align: center;
-    border: black solid 5px;
 }
 #intro-to-step-1 {
     display: flex;
     justify-content: center;
     color: #F2E9B8;
     font-size: 28.92px;
-    margin-left: 200px;
+    margin-left: 220px;
     margin-top: -10px;
-    border: black solid 5px;
     width: 609px;
     height: 59px;
+    margin-top: -30px;
     
 }
 #step-1-description-text {
@@ -249,13 +242,12 @@ h2 {
     margin-right: 500px;
     margin-left: 10px;
     margin-top: -20px;
-    border: black solid 5px;
 }
 #tuning-guitar-pt-1 {
-    transform: translate(630px, -380px);
+    transform: translate(630px, -480px);
 }
 #tuning-guitar-pt-2 {
-    transform: translate(150px, -180px);
+    transform: translate(150px, -280px);
 }
 #step-2 {
     position: absolute;
@@ -270,6 +262,7 @@ h2 {
 #description-for-tuning-guitar {
     display: flex;
     justify-content: end;
+    margin-top: -190px;
 }
 #beginning-of-step-2 {
     display: flex;
@@ -309,7 +302,7 @@ h2 {
     height: 70px;
     color: #F2E9B8;
     font-size: 25.45px;
-    justify-content: center;
+    text-align: center;
     margin-left: 320px
 }
 #description-for-dive-into-guitar-tutorials {
@@ -544,7 +537,7 @@ h2 {
     margin-top: 120px;
     margin-left: 270px;
     color: #F2E9B8;
-    width: 513px;
-    height: 59px;
+    width: 518px;
+    height: 40px;
     border: black solid 5px;
 }
