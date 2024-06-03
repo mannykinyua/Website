@@ -8,7 +8,7 @@ body {
 #main-container {
     background-color: #4D7FA6;
     width: 1024px;
-    height: 5400px;
+    height: 4900px;
     border: solid 5px white;
     justify-content: center;
 }
@@ -41,13 +41,13 @@ h1 {
     display: flex;
     justify-content: center;
     
+    
 }
 
 h2 { 
     display: flex;
     justify-content: center;
     float: center;
-    border: 50px;
 }
 
 #text-to-equipment-page {
@@ -59,14 +59,16 @@ h2 {
 }
 #equipment-text {
     margin-right: -100px;
-    margin-top: 340px;
-    margin-left: -22px;
+    margin-top: 260px;
+    margin-left: 478px;
     justify-content: center;
+    font-size: 22.36px;
+    position: absolute;
 }
 #first-ever-arrow-image {
     margin-right: -100px;
-    margin-top: 390px;
-    margin-left: -13px;
+    margin-top: 300px;
+    margin-left: 49px;
 }
 #equipment-guide {
     top: auto;
@@ -74,11 +76,11 @@ h2 {
 #picture-of-me {
     display: flex;
     margin: 100px;
+    margin-top: -10px;
 }
 #intro-text {
-    display: flex;
-    margin-left: -20px;
-    margin-right: 10px;
+    margin-left: -10px;
+    margin-right: -100px;
     height: 310px;
     width: 569px;
     font-size: 21px;
@@ -101,7 +103,7 @@ h2 {
 }
 #arrow-image {
     display: flex;
-    margin-top: 9px;
+    margin-top: -95px;
     margin-left: 520px;
 }
 #description-text-for-equipment {
@@ -122,7 +124,7 @@ h2 {
     margin-left: 700px;
     margin-top: -150px;
     font-size: 25.24px;
-    color: #9D0000;
+    color: #CCCCCC;
     width: 220px;
     height: 39px;
     display: flex;
@@ -197,7 +199,7 @@ h2 {
 }
 #step-1 {
     position: absolute;
-    margin-left: 500px;
+    margin-left: 504px;
     margin-top: -250px;
     font-size: 21.14px;
 }
@@ -220,7 +222,7 @@ h2 {
     margin-top: -80px;
     width: 279px;
     height: 39px;
-    color: #9D0000;
+    color: #CCCCCC;
     font-size: 25.24px;
     text-align: center;
 }
@@ -240,54 +242,54 @@ h2 {
     display: flex;
     font-size: 22px;
     margin-right: 500px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: -20px;
+    width: 461px;
+    height: 656px;
 }
 #tuning-guitar-pt-1 {
-    transform: translate(630px, -480px);
+    transform: translate(630px, -704px);
+    margin: 0px;
 }
 #tuning-guitar-pt-2 {
-    transform: translate(150px, -280px);
+    transform: translate(120px, -450px);
 }
 #step-2 {
     position: absolute;
-    margin-left: 488px;
-    margin-top: -180px;
+    margin-left: 500px;
+    margin-top: -420px;
+    font-size: 22.39px;
 }
 #arrow-image-3 {
     position: absolute;
-    margin-left: -220px;
-    margin-top: 70px;
+    margin-left: -215px;
+    margin-top: -170px;
 }
 #description-for-tuning-guitar {
     display: flex;
-    justify-content: end;
-    margin-top: -190px;
+    width: 185px;
+    height: 153px;
+    transform: translate(860px, -380px)
 }
 #beginning-of-step-2 {
     display: flex;
     justify-content: center;
     color: #F2E9B8;
-    margin-left: 440px;
-    margin-top: 80px;
+    margin-left: 450px;
+    margin-top: -300px;
     font-size: 41.1px;
-    border: black solid 5px;
     width: 173px;
     height: 59px;
 }
 #description-for-tuning-guitar {
     position: relative;
     margin-top: -170px;
-    
-    
-    
 }
 #home-taskbar-2 {
     position: absolute;
     margin-left: 700px;
-    margin-top: -80px;
-    color: #9D0000;
-    border: black solid 5px;
+    margin-top: -76px;
+    color: #CCCCCC;
     font-size: 25.24px;
     width: 279px;
     height: 39px;
@@ -297,13 +299,14 @@ h2 {
 }
 #title-of-step-2 {
     display: flex;
-    border: black solid 5px;
+    margin-left: 390px;
     width: 385px;
+    margin-top: -30px;
     height: 70px;
     color: #F2E9B8;
     font-size: 25.45px;
     text-align: center;
-    margin-left: 320px
+    
 }
 #description-for-dive-into-guitar-tutorials {
     display: flex;
@@ -311,9 +314,9 @@ h2 {
     margin-left: 60px;
     right: 430px;
     font-size: 21px;
-    border: black solid 5px;
     width: 506px;
     height: 250px;
+    margin-top: -35px;
 }
 #searching-for-vidz {
     display: flex;
@@ -331,7 +334,7 @@ h2 {
 }
 #following-along-with-guitar-vid {
     display: flex;
-    margin-left: 650px;
+    margin-left: 550px;
 }
 #description-for-following-along-with-guitar-vid {
     display: flex;
@@ -342,21 +345,22 @@ h2 {
 #step-3 {
     display: flex;
     margin-top: -5px;
+    margin-left: 25px;
+    font-size: 22.39px;
 }
 #arrow-image-4 {
     display: flex;
-    margin-left: 500px;
-    margin-top: -20px;
+    margin-left: 510px;
+    margin-top: -8px;
 }
 #beginning-of-step-3 {
     display: flex;
     font-size: 41.1px;
     justify-content: center;
     color: #F2E9B8;
-    border: solid black 5px;
     width: 173px;
     height: 59px;
-    margin-left: 420px;
+    margin-left: 430px;
     margin-top: 10px;
 }
 #home-taskbar-3 {
@@ -365,26 +369,24 @@ h2 {
     margin-top: -80px;
     width: 279px;
     height: 39px;
-    color: #9D0000;
+    color: #CCCCCC;
     font-size: 25.24px;
     text-align: center;
-    border: black solid 5px;
 }
 #title-of-step-3 {
     display: flex;
-    border: black solid 5px;
     width: 470px;
     height: 59px;
     color: #F2E9B8;
     font-size: 25.45px;
     justify-content: center;
     margin-left: 280px;
+    margin-top: -28px;
 }
 #description-for-step-3 {
     display: flex;
     margin-left: 15px;
     margin-top: -10px;
-    border: black solid 5px;
     width: 459px;
     height: 321px;
     font-size: 17px;
@@ -411,21 +413,22 @@ h2 {
 #step-4 {
     display: flex;
     font-size: 21.84px;
+    margin-left: 11px;
 }
 #arrow-image-5 {
     display: flex;
-    margin-left: 496px;
+    margin-left: 500px;
     margin-top: -10px;
 }
 #beginning-of-step-4 {
     display: flex;
     justify-content: center;
     margin-top: 13px;
-    margin-left: 420px;
+    margin-left: 425px;
     color: #F2E9B8;
-    border: black solid 5px;
     width: 173px;
     height: 59px;
+    font-size: 41.1px;
 
 }
 #home-taskbar-4 {
@@ -434,27 +437,24 @@ h2 {
     margin-top: -68px;
     width: 279px;
     height: 39px;
-    color: #9D0000;
+    color: #CCCCCC;
     font-size: 25.24px;
     text-align: center;
-    border: black solid 5px;
 }
 #intro-to-step-4 {
     position: absolute;
-    margin-left: 290px;
-    margin-top: -10px;
+    margin-left: 250px;
+    margin-top: -29px;
     font-size: 26.92px;
-    border: black solid 5px;
     color: #F2E9B8;
 }
 #description-for-step-4 {
     display: flex;
-    margin-left: 220px;
-    margin-top: 100px;
+    margin-left: 240px;
+    margin-top: 40px;
     font-size: 16px;
     width: 578px;
     height: 160px;
-    border: black solid 5px;
 
 }
 #description-for-step-4-text {
@@ -481,42 +481,42 @@ h2 {
 }
 #beginning-of-step-5 {
     display: flex;
-    margin-left: 420px;
+    justify-content: center;
+    margin-left: 426px;
     margin-top: 5px;
     color: #F2E9B8;
-    border: black solid 5px;
     width: 173px;
     height: 59px;
+    font-size: 41.1px;
 }
 #home-taskbar-5 {
     position: absolute;
     margin-left: 700px;
-    margin-top: -68px;
+    margin-top: -78px;
     width: 279px;
     height: 39px;
-    color: #9D0000;
+    color: #CCCCCC;
     font-size: 25.24px;
     text-align: center;
-    border: black solid 5px;
 }
 #description-for-step-5-text {
     display: flex;
     justify-content: center;
     font-size: 24px;
-    border: black solid 5px;
     color: #F2E9B8;
     width: 834px;
     height: 62px;
-    margin-left: 90px;
+    margin-left: 94px;
+    margin-top: -23px;
 }
 #text-for-step-5 {
     display: flex;
     justify-content: center;
-    border: black solid 5px;
     width: 414px;
     height: 469px;
     margin-left: 320px;
     font-size: 19px;
+    margin-top: -10px;
     
 }
 #voice-memo-image {
@@ -535,9 +535,10 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 120px;
-    margin-left: 270px;
+    margin-left: 80px;
     color: #F2E9B8;
-    width: 518px;
-    height: 40px;
-    border: black solid 5px;
+    width: 900px;
+    height: 100px;
+    font-size: 40.87px;
+    
 }
